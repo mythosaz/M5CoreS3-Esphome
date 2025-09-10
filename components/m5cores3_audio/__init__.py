@@ -46,6 +46,7 @@ CONFIG_SCHEMA = cv.Schema(
         cv.Optional(CONF_I2S_LRCLK_PIN): pins.internal_gpio_output_pin_number,
         cv.Optional(CONF_I2S_BCLK_PIN): pins.internal_gpio_output_pin_number,
         cv.Optional(CONF_I2S_MCLK_PIN): pins.internal_gpio_output_pin_number,
+		cv.Optional(CONF_MAX_CHANNELS, default=2): cv.int_,
     }
 )
 
