@@ -1,7 +1,7 @@
 import esphome.codegen as cg
 import esphome.config_validation as cv
 from esphome import pins
-from esphome.const import CONF_ID, CONF_MODE
+from esphome.const import CONF_ID, CONF_MODE, CONF_MAX_CHANNELS
 from esphome.components import esp32, speaker
 
 from .. import (
