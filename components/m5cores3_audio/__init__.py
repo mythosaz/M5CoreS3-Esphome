@@ -3,7 +3,10 @@ import esphome.final_validate as fv
 import esphome.codegen as cg
 
 from esphome import pins
-from esphome.const import CONF_ID
+from esphome.const import (
+    CONF_ID,
+    CONF_MAX_CHANNELS,  # Add this line
+)
 from esphome.components.esp32 import get_esp32_variant
 from esphome.components.esp32.const import (
     VARIANT_ESP32,
